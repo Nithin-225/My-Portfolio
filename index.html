@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Papareddy Nithin Kumar - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Montserrat', 'Roboto', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght=400;600&display=swap" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-[#181f2a] dark:bg-gray-900 text-gray-100 transition-colors duration-500 font-sans">
+  <!-- Navbar -->
+  <nav class="sticky top-0 z-50 bg-[#232b3a]/80 dark:bg-gray-900/80 backdrop-blur shadow flex items-center justify-between px-8 py-4">
+    <div class="font-bold text-2xl tracking-wide">Nithin Kumar</div>
+    <div class="flex-1"></div>
+    <ul class="flex gap-8 font-medium text-gray-200 justify-end flex-1">
+      <li><a href="#home" class="hover:text-blue-400 transition">Home</a></li>
+      <li><a href="#about" class="hover:text-blue-400 transition">About</a></li>
+      <li><a href="#education" class="hover:text-blue-400 transition">Education</a></li>
+      <li><a href="#skills" class="hover:text-blue-400 transition">Skills</a></li>
+      <li><a href="#projects" class="hover:text-blue-400 transition">Projects</a></li>
+      <li><a href="#experience" class="hover:text-blue-400 transition">Experience</a></li>
+      <li><a href="#certifications" class="hover:text-blue-400 transition">Certifications</a></li>
+      <li><a href="#contact" class="hover:text-blue-400 transition">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- Hero Section -->
+  <section id="home" class="flex flex-col md:flex-row items-center justify-between min-h-[80vh] px-8 py-16 bg-gradient-to-br from-[#2a3a5a] via-[#2e4372] to-[#3a4a6a] dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+    <div class="flex-1 flex flex-col justify-center items-start">
+      <h1 class="text-5xl md:text-6xl font-extrabold mb-2 tracking-tight text-white">
+        Hello,
+      </h1>
+      <h2 class="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight">
+        <span class="text-white">This is</span> <span class="text-blue-400">Nithin Kumar Papareddy</span>
+      </h2>
+      <p class="text-xl md:text-2xl font-medium mb-4 text-gray-300">Aspiring Full Stack Developer | Java | Web Dev Enthusiast</p>
+      <p class="max-w-xl mb-8 text-gray-200">Recent B.Tech graduate with a strong foundation in Java, MySQL, and web development. Passionate about building innovative solutions and constantly learning new technologies.</p>
+      <div class="flex gap-4">
+        <a href="https://drive.google.com/file/d/11blt4hvRKi2btHzvJBmLUYen0ybg1g-A/view?usp=sharing" target="_blank" class="px-6 py-3 rounded-lg bg-blue-500 text-white font-semibold shadow hover:bg-blue-600 transition flex items-center gap-2">
+          <i class="fas fa-download"></i> View Resume
+        </a>
+        <a href="#contact" class="px-6 py-3 rounded-lg bg-gray-800 text-white font-semibold shadow hover:bg-gray-700 transition flex items-center gap-2">
+          <i class="fas fa-envelope"></i> Contact Me
+        </a>
+      </div>
+    </div>
+    <div class="flex-1 flex justify-center items-center mt-10 md:mt-0">
+      <div class="w-64 h-64 rounded-full bg-gradient-to-tr from-pink-400 via-red-400 to-yellow-400 p-2 flex items-center justify-center shadow-lg">
+        <img src="profile2.png" alt="Profile" class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-xl" />
+      </div>
+    </div>
+  </section>
+  <!-- About Section -->
+  <section id="about" class="py-16 px-4 max-w-6xl mx-auto">
+    <h2 class="text-4xl font-bold text-center mb-2">About Me</h2>
+    <div class="w-24 h-1 bg-blue-500 mx-auto mb-8 rounded"></div>
+    <p class="text-center text-lg text-gray-300 mb-10">Passionate about technology and innovation, I'm dedicated to creating impactful solutions through code and continuous learning.</p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-[#232b3a] rounded-xl p-8 flex flex-col items-center shadow-lg">
+        <i class="fas fa-user text-4xl text-blue-400 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Background</h3>
+        <p class="text-gray-300 text-center">Recent B.Tech graduate in Electronics and Communication Engineering with a strong academic record and passion for technology.</p>
+      </div>
+      <div class="bg-[#232b3a] rounded-xl p-8 flex flex-col items-center shadow-lg">
+        <i class="fas fa-bullseye text-4xl text-blue-400 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Focus</h3>
+        <p class="text-gray-300 text-center">Specializing in full-stack development with expertise in Java, Python, and modern web technologies.</p>
+      </div>
+      <div class="bg-[#232b3a] rounded-xl p-8 flex flex-col items-center shadow-lg">
+        <i class="fas fa-lightbulb text-4xl text-blue-400 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Innovation</h3>
+        <p class="text-gray-300 text-center">Applying deep learning and AI to solve real-world problems, with experience in healthcare technology applications.</p>
+      </div>
+    </div>
+  </section>
+  <!-- Professional Summary Section -->
+  <section id="summary" class="py-12 px-4 max-w-6xl mx-auto">
+    <div class="bg-[#232b3a] rounded-xl p-10 shadow-lg max-w-4xl mx-auto">
+      <h2 class="text-2xl md:text-3xl font-bold text-center mb-4">Professional Summary</h2>
+      <p class="text-center text-lg text-gray-200">
+        Recent B.Tech graduate with a strong foundation in <span class="text-blue-400 font-semibold">Java</span>, <span class="text-blue-400 font-semibold">MySQL</span>, and <span class="text-blue-400 font-semibold">web development</span>. Proficient in building responsive web applications and applying deep learning to real-world problems. Quick learner with excellent communication skills and a passion for staying updated with the latest technology trends. Experienced in working with modern development tools and methodologies, with a particular interest in full-stack development and AI applications.
+      </p>
+    </div>
+  </section>
+  <!-- Education Section -->
+  <section id="education" class="py-16 px-4 max-w-6xl mx-auto">
+    <h2 class="text-4xl font-bold text-center mb-2">Education</h2>
+    <div class="w-24 h-1 bg-blue-500 mx-auto mb-8 rounded"></div>
+    <p class="text-center text-lg text-gray-300 mb-10">Academic journey showcasing consistent excellence and dedication to learning</p>
+    <div class="flex flex-col gap-8">
+      <!-- B.Tech -->
+      <div class="flex flex-col md:flex-row items-center bg-[#232b3a] rounded-xl p-8 shadow-lg">
+        <div class="flex items-center justify-center w-16 h-16 rounded-full bg-blue-800 mr-0 md:mr-8 mb-4 md:mb-0">
+          <i class="fas fa-graduation-cap text-3xl text-blue-400"></i>
+        </div>
+        <div class="flex-1">
+          <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+            <div>
+              <h3 class="text-xl font-bold text-white">B.Tech in Electronics and Communication Engineering</h3>
+              <div class="text-gray-300">Siddharth Institute of Engineering and Technology</div>
+            </div>
+            <div class="flex items-center gap-4 mt-2 md:mt-0">
+              <span class="text-gray-400 flex items-center"><i class="far fa-calendar-alt mr-1"></i> 2021 – 2025</span>
+              <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold flex items-center"><i class="fas fa-award mr-1"></i> CGPA: 8.82</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Intermediate -->
+      <div class="flex flex-col md:flex-row items-center bg-[#232b3a] rounded-xl p-8 shadow-lg">
+        <div class="flex items-center justify-center w-16 h-16 rounded-full bg-blue-800 mr-0 md:mr-8 mb-4 md:mb-0">
+          <i class="fas fa-certificate text-3xl text-blue-400"></i>
+        </div>
+        <div class="flex-1">
+          <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+            <div>
+              <h3 class="text-xl font-bold text-white">Intermediate (12th Grade)</h3>
+              <div class="text-gray-300">AP Board</div>
+            </div>
+            <div class="flex items-center gap-4 mt-2 md:mt-0">
+              <span class="text-gray-400 flex items-center"><i class="far fa-calendar-alt mr-1"></i> 2019 – 2021</span>
+              <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold flex items-center"><i class="fas fa-award mr-1"></i> CGPA: 9.0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SSC -->
+      <div class="flex flex-col md:flex-row items-center bg-[#232b3a] rounded-xl p-8 shadow-lg">
+        <div class="flex items-center justify-center w-16 h-16 rounded-full bg-blue-800 mr-0 md:mr-8 mb-4 md:mb-0">
+          <i class="fas fa-certificate text-3xl text-blue-400"></i>
+        </div>
+        <div class="flex-1">
+          <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+            <div>
+              <h3 class="text-xl font-bold text-white">SSC (10th Grade)</h3>
+              <div class="text-gray-300">AP Board</div>
+            </div>
+            <div class="flex items-center gap-4 mt-2 md:mt-0">
+              <span class="text-gray-400 flex items-center"><i class="far fa-calendar-alt mr-1"></i> 2018 – 2019</span>
+              <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold flex items-center"><i class="fas fa-award mr-1"></i> CGPA: 9.7</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Technical Skills Section -->
+  <section id="skills" class="py-16 px-4 max-w-6xl mx-auto">
+    <h2 class="text-4xl font-bold text-center mb-2">Technical Skills</h2>
+    <div class="w-24 h-1 bg-blue-500 mx-auto mb-8 rounded"></div>
+    <p class="text-center text-lg text-gray-300 mb-10">Comprehensive technical expertise across multiple domains and technologies</p>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 items-center justify-items-center bg-[#181f2a] rounded-xl p-8 shadow-lg">
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" class="w-10 h-10 mb-1"/>
+        <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">Java</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="w-10 h-10 mb-1"/>
+        <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">Python</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="w-10 h-10 mb-1"/>
+        <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">HTML</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="w-10 h-10 mb-1"/>
+        <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">CSS</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" class="w-10 h-10 mb-1"/>
+        <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">MySQL</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" class="w-10 h-10 mb-1"/>
+        <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">Git</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="w-10 h-10 mb-1 bg-white rounded"/>
+        <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">GitHub</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" class="w-10 h-10 mb-1"/>
+        <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">VS Code</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/microsoftoffice.svg" alt="MS Office" class="w-10 h-10 mb-1 bg-white rounded p-1"/>
+        <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">MS Office</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/notion/notion-original.svg" alt="Notion" class="w-10 h-10 mb-1"/>
+        <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">Notion</span>
+      </div>
+    </div>
+  </section>
+  <!-- Soft Skills Section -->
+  <section id="soft-skills" class="py-16 px-4 max-w-6xl mx-auto">
+    <h2 class="text-4xl font-bold text-center mb-2">Soft Skills</h2>
+    <div class="w-24 h-1 bg-blue-500 mx-auto mb-8 rounded"></div>
+    <p class="text-center text-lg text-gray-300 mb-10">Key interpersonal and professional strengths</p>
+    <div class="flex flex-wrap gap-8 justify-center">
+      <div class="flex flex-col items-center">
+        <i class="fas fa-clock text-3xl text-blue-300 mb-1"></i>
+        <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">Time Management</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <i class="fas fa-sync-alt text-3xl text-blue-300 mb-1"></i>
+        <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">Adaptability</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <i class="fas fa-users text-3xl text-blue-300 mb-1"></i>
+        <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">Team Collaboration</span>
+      </div>
+    </div>
+  </section>
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 px-4 max-w-6xl mx-auto">
+    <h2 class="text-4xl font-bold text-center mb-2">Featured Projects</h2>
+    <div class="w-24 h-1 bg-blue-500 mx-auto mb-8 rounded"></div>
+    <p class="text-center text-lg text-gray-300 mb-10">Showcasing practical applications of technology in healthcare and entertainment domains</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+      <!-- Project 1 -->
+      <div class="bg-[#232b3a] rounded-xl p-8 shadow-lg flex flex-col">
+        <div class="flex items-center gap-3 mb-2">
+          <i class="fas fa-dna text-3xl text-blue-400"></i>
+          <span class="font-semibold text-lg">Deep Learning for Cervical Cancer Detection</span>
+        </div>
+        <p class="text-gray-300 mb-4">MATLAB-based CNN model for classifying Pap smear images using advanced preprocessing techniques and deep learning toolbox. Implemented computer vision algorithms to assist in early cancer detection.</p>
+        <div class="mb-2">
+          <span class="font-bold text-gray-200">Key Features:</span>
+          <ul class="list-disc list-inside text-gray-400 text-sm ml-4">
+            <li>CNN model architecture design</li>
+            <li>Image preprocessing pipeline</li>
+            <li>Classification accuracy optimization</li>
+            <li>Medical image analysis</li>
+          </ul>
+        </div>
+        <div class="mb-2">
+          <span class="font-bold text-gray-200">Technologies Used:</span>
+          <div class="flex flex-wrap gap-2 mt-1">
+            <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">MATLAB</span>
+            <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">Deep Learning</span>
+            <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">Computer Vision</span>
+            <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">CNN</span>
+            <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">Image Processing</span>
+          </div>
+        </div>
+        <span class="text-xs text-gray-400 mt-2">Academic project – Source code available upon request</span>
+      </div>
+      <!-- Project 2 -->
+      <div class="bg-[#232b3a] rounded-xl p-8 shadow-lg flex flex-col">
+        <div class="flex items-center gap-3 mb-2">
+          <i class="fas fa-tv text-3xl text-blue-400"></i>
+          <span class="font-semibold text-lg">Netflix Clone using Cursor AI</span>
+        </div>
+        <p class="text-gray-300 mb-4">Modern streaming platform clone built with React.js and TMDB API integration. Features AI-generated components and contemporary UI design patterns for enhanced user experience.</p>
+        <div class="mb-2">
+          <span class="font-bold text-gray-200">Key Features:</span>
+          <ul class="list-disc list-inside text-gray-400 text-sm ml-4">
+            <li>Responsive web design</li>
+            <li>API integration</li>
+            <li>Modern UI components</li>
+            <li>Movie browsing functionality</li>
+          </ul>
+        </div>
+        <div class="mb-2">
+          <span class="font-bold text-gray-200">Technologies Used:</span>
+          <div class="flex flex-wrap gap-2 mt-1">
+            <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">React.js</span>
+            <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">TMDB API</span>
+            <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">JavaScript</span>
+            <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">CSS3</span>
+            <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold">Cursor AI</span>
+          </div>
+        </div>
+        <a href="https://github.com/Nithin-225/Netflix-Clone" target="_blank" class="mt-4 px-4 py-2 rounded bg-blue-600 text-white text-xs font-semibold hover:bg-blue-700 transition flex items-center gap-2 w-max"><i class="fab fa-github"></i> Source Code</a>
+      </div>
+    </div>
+    <!-- Explore More Projects Card -->
+    <div class="bg-[#232b3a] rounded-xl p-8 shadow-lg flex flex-col items-center">
+      <span class="text-lg font-semibold text-gray-200 mb-2">Explore More Projects</span>
+      <span class="text-gray-400 mb-4">Check out my GitHub profile for more projects and contributions</span>
+      <a href="https://github.com/Nithin-225" target="_blank" class="px-4 py-2 rounded bg-blue-600 text-white text-xs font-semibold hover:bg-blue-700 transition flex items-center gap-2"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+  </section>
+  <!-- Experience Section -->
+  <section id="experience" class="py-16 px-4 max-w-6xl mx-auto">
+    <h2 class="text-4xl font-bold text-center mb-2">Experience</h2>
+    <div class="w-24 h-1 bg-blue-500 mx-auto mb-8 rounded"></div>
+    <p class="text-center text-lg text-gray-300 mb-10">Professional experience</p>
+    <div class="flex flex-col gap-8 mb-8">
+      <!-- Experience Card -->
+      <div class="bg-[#232b3a] rounded-xl p-8 shadow-lg flex flex-col md:flex-row md:items-center md:justify-between">
+        <div>
+          <div class="font-semibold text-lg mb-1">Python Programming Intern</div>
+          <div class="text-blue-400 font-semibold mb-1">Vault of Codes</div>
+          <div class="text-sm text-gray-400 mb-2">Nov 2023 – Dec 2023</div>
+          <ul class="list-disc list-inside text-gray-300 text-sm ml-4">
+            <li>Developed automation scripts using Python</li>
+            <li>Followed clean code practices and standards</li>
+            <li>Collaborated on basic development projects</li>
+            <li>Learned industry-standard development workflows</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Certifications Section -->
+  <section id="certifications" class="py-16 px-4 max-w-6xl mx-auto">
+    <h2 class="text-4xl font-bold text-center mb-2">Certifications</h2>
+    <div class="w-24 h-1 bg-blue-500 mx-auto mb-8 rounded"></div>
+    <p class="text-center text-lg text-gray-300 mb-10">Continuous learning through certifications</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+      <div class="bg-[#232b3a] rounded-xl p-8 shadow-lg flex flex-col items-center">
+        <i class="fas fa-certificate text-3xl text-blue-400 mb-2"></i>
+        <div class="font-semibold text-lg mb-1">Full Stack Java Development</div>
+        <div class="text-blue-400 font-semibold mb-1">QSpiders</div>
+        <div class="text-gray-300 text-center">Comprehensive training in Java development, covering both frontend and backend technologies</div>
+      </div>
+      <div class="bg-[#232b3a] rounded-xl p-8 shadow-lg flex flex-col items-center">
+        <i class="fas fa-certificate text-3xl text-blue-400 mb-2"></i>
+        <div class="font-semibold text-lg mb-1">Python Programming</div>
+        <div class="text-blue-400 font-semibold mb-1">Vault of Codes</div>
+        <div class="text-gray-300 text-center">Advanced Python programming concepts and practical application development</div>
+      </div>
+    </div>
+    <div class="bg-[#232b3a] rounded-xl p-6 shadow-lg flex flex-col items-center mt-8">
+      <span class="font-semibold text-gray-200 mb-1">Continuous Learning</span>
+      <span class="text-gray-400 text-center">Committed to staying updated with the latest technologies and best practices through continuous learning and professional development</span>
+    </div>
+  </section>
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 px-4 max-w-6xl mx-auto">
+    <h2 class="text-4xl font-bold text-center mb-2">Get In Touch</h2>
+    <div class="w-24 h-1 bg-blue-500 mx-auto mb-8 rounded"></div>
+    <p class="text-center text-lg text-gray-300 mb-10">Let's connect and explore opportunities to work together on exciting projects</p>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+      <div class="bg-[#232b3a] rounded-xl p-6 shadow-lg flex flex-col items-center">
+        <i class="fas fa-envelope text-2xl text-blue-400 mb-2"></i>
+        <span class="font-semibold">Email</span>
+        <span class="text-gray-300 text-sm">nithinkumar.p27@gmail.com</span>
+      </div>
+      <div class="bg-[#232b3a] rounded-xl p-6 shadow-lg flex flex-col items-center">
+        <i class="fas fa-phone text-2xl text-blue-400 mb-2"></i>
+        <span class="font-semibold">Phone</span>
+        <span class="text-gray-300 text-sm">+91-9652558225</span>
+      </div>
+      <div class="bg-[#232b3a] rounded-xl p-6 shadow-lg flex flex-col items-center">
+        <i class="fab fa-linkedin text-2xl text-blue-400 mb-2"></i>
+        <span class="font-semibold">LinkedIn</span>
+        <a href="https://www.linkedin.com/in/nithinkumar-p/" target="_blank" class="text-gray-300 text-sm underline">nithinkumar-p</a>
+      </div>
+      <div class="bg-[#232b3a] rounded-xl p-6 shadow-lg flex flex-col items-center">
+        <i class="fab fa-github text-2xl text-blue-400 mb-2"></i>
+        <span class="font-semibold">GitHub</span>
+        <a href="https://github.com/Nithin-225" target="_blank" class="text-gray-300 text-sm underline">Nithin-225</a>
+      </div>
+    </div>
+    <!-- Ready to Start a Project Card -->
+    <div class="bg-gradient-to-r from-blue-600 to-blue-400 rounded-xl p-8 shadow-lg flex flex-col items-center mb-8">
+      <span class="text-lg font-semibold text-white mb-2">Ready to Start a Project?</span>
+      <span class="text-white text-center mb-4">I'm always excited to work on new challenges and collaborate with talented individuals. Whether it's a web application, AI project, or any innovative solution, let's make it happen!</span>
+      <a href="mailto:nithinkumar.p27@gmail.com" class="px-6 py-2 rounded bg-white text-blue-700 font-semibold shadow hover:bg-blue-100 transition flex items-center gap-2"><i class="fas fa-paper-plane"></i> Send Email</a>
+    </div>
+    <!-- Location and Social Links Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="bg-[#232b3a] rounded-xl p-6 shadow-lg flex flex-col items-center">
+        <i class="fas fa-map-marker-alt text-2xl text-blue-400 mb-2"></i>
+        <span class="font-semibold">Location</span>
+        <span class="text-gray-300 text-sm text-center">Based in Andhra Pradesh, India<br>Open to remote opportunities and willing to relocate</span>
+      </div>
+      <div class="bg-[#232b3a] rounded-xl p-6 shadow-lg flex flex-col items-center">
+        <i class="fas fa-hashtag text-2xl text-blue-400 mb-2"></i>
+        <span class="font-semibold">Let's Connect</span>
+        <span class="text-gray-300 text-sm text-center">Follow me on social media for updates on my latest projects and tech insights.</span>
+        <div class="flex gap-4 mt-2">
+          <a href="https://linkedin.com/in/nithinkumar-p" target="_blank" class="text-blue-400 hover:text-blue-200 text-xl"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/Nithin-225" target="_blank" class="text-blue-400 hover:text-blue-200 text-xl"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="text-center py-8 bg-white text-gray-700 dark:bg-gray-900 dark:text-gray-200 transition-colors duration-500 mt-12">
+    <div class="mb-2 font-bold text-lg">Papareddy Nithin Kumar</div>
+    <div class="mb-2 text-sm">Aspiring Full Stack Developer passionate about creating innovative solutions</div>
+    <div class="mb-2 text-xs flex items-center justify-center gap-2">
+      Made with <span class="text-red-500">&#10084;&#65039;</span> using <span class="font-semibold">React & Tailwind CSS</span>
+    </div>
+    <div class="text-xs">&copy; 2024 Papareddy Nithin Kumar. All rights reserved.</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
