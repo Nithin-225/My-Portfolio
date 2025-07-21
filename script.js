@@ -66,29 +66,6 @@ function animateOnScroll() {
   animatedEls.forEach(el => observer.observe(el));
 }
 
-// Mobile menu toggle
-const hamburger = document.getElementById('hamburger');
-const mobileMenu = document.getElementById('mobileMenu');
-const closeMenu = document.getElementById('closeMenu');
-
-if (hamburger && mobileMenu && closeMenu) {
-  hamburger.addEventListener('click', () => {
-    mobileMenu.style.display = 'flex';
-    setTimeout(() => mobileMenu.classList.add('open'), 10);
-  });
-  closeMenu.addEventListener('click', () => {
-    mobileMenu.classList.remove('open');
-    setTimeout(() => mobileMenu.style.display = 'none', 300);
-  });
-  // Close menu when a link is clicked
-  mobileMenu.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => {
-      mobileMenu.classList.remove('open');
-      setTimeout(() => mobileMenu.style.display = 'none', 300);
-    });
-  });
-}
-
 document.addEventListener('DOMContentLoaded', () => {
   animateOnScroll();
   // Smooth scrolling for nav links
